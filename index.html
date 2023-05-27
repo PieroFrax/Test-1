@@ -1,131 +1,149 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>PlatLearn - La tua piattaforma di apprendimento</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700">
-  <style>
-    /* Stili CSS per il sito web */
-    body {
-      font-family: 'Open Sans', Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f9f9f9;
-    }
-    header {
-      background-color: #fff;
-      padding: 20px;
-      text-align: center;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    }
-    h1 {
-      color: #333;
-      font-weight: 700;
-    }
-    nav {
-      margin-top: 20px;
-    }
-    nav ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-    nav ul li {
-      display: inline-block;
-      margin-right: 10px;
-    }
-    nav ul li a {
-      text-decoration: none;
-      color: #333;
-      padding: 5px;
-      transition: color 0.3s ease;
-    }
-    nav ul li a:hover {
-      color: #e74c3c;
-    }
-    main {
-      padding: 20px;
-    }
-    h2 {
-      color: #333;
-      font-weight: 700;
-      margin-bottom: 10px;
-    }
-    p {
-      color: #555;
-      line-height: 1.5;
-    }
-    section {
-      margin-bottom: 30px;
-    }
-    ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-    li {
-      margin-bottom: 5px;
-    }
-    li a {
-      color: #333;
-      text-decoration: none;
-      transition: color 0.3s ease;
-    }
-    li a:hover {
-      color: #e74c3c;
-    }
-    footer {
-      background-color: #333;
-      color: #fff;
-      padding: 10px;
-      text-align: center;
-    }
-  </style>
+    <title>Platformatore - Piattaforma di Apprendimento</title>
+    <style>
+        /* Stili CSS per il layout e il design del sito */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('sfondo-spazio.jpg');
+            background-size: cover;
+            color: #fff;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Orbitron', sans-serif;
+            color: #fff;
+        }
+
+        header {
+            background-color: #330033;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #660066;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .course {
+            margin-bottom: 20px;
+            border: 1px solid #660066;
+            padding: 10px;
+            background-color: rgba(51, 0, 51, 0.7);
+        }
+
+        .calendar {
+            margin-top: 20px;
+            border: 1px solid #660066;
+            padding: 20px;
+            background-color: rgba(51, 0, 51, 0.7);
+        }
+
+        .contact {
+            margin-top: 20px;
+            border: 1px solid #660066;
+            padding: 20px;
+            background-color: rgba(51, 0, 51, 0.7);
+        }
+
+        .contact h3 {
+            margin-bottom: 10px;
+        }
+
+        .dynamic-image {
+            width: 200px;
+            height: 200px;
+            margin-bottom: 20px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>PlatLearn</h1>
+    <header>
+        <h1>Platformatore</h1>
+    </header>
+
     <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Corsi</a></li>
-        <li><a href="#">Calendario</a></li>
-        <li><a href="#">Contattaci</a></li>
-      </ul>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Corsi</a></li>
+            <li><a href="#">Contatti</a></li>
+        </ul>
     </nav>
-  </header>
 
-  <main>
-    <h2>Benvenuto su PlatLearn</h2>
-    <p>La piattaforma di apprendimento online che ti offre una vasta gamma di corsi per arricchire le tue conoscenze.</p>
+    <main>
+        <h2>Benvenuto nella nostra piattaforma di apprendimento!</h2>
 
-    <section>
-      <h3>Corsi in primo piano</h3>
-      <ul>
-        <li><a href="#">Corso di Programmazione Java</a></li>
-        <li><a href="#">Corso di Web Design</a></li>
-        <li><a href="#">Corso di Marketing Digitale</a></li>
-      </ul>
-    </section>
+        <div class="course">
+            <h3>Corso di Matematica</h3>
+            <p>Un corso completo per imparare la matematica di base.</p>
+            <a href="#">Apri corso</a>
+            <img class="dynamic-image" src="matematica.jpg" alt="Corso di Matematica">
+        </div>
 
-    <section>
-      <h3>Calendario</h3>
-      <p>Consulta il calendario per scoprire le date dei prossimi corsi e gli eventi speciali.</p>
-    </section>
+        <div class="course">
+            <h3>Corso di Programmazione</h3>
+            <p>Impara a programmare da zero con linguaggi come Python e JavaScript.</p>
+            <a href="#">Apri corso</a>
+            <img class="dynamic-image" src="programmazione.jpg" alt="Corso di Programmazione">
+        </div>
 
-    <section>
-      <h3>Contattaci</h3>
-      <p>Hai domande o suggerimenti? Contattaci utilizzando il modulo sottostante.</p>
-      <form>
-        <input type="text" placeholder="Nome" required><br>
-        <input type="email" placeholder="Email" required><br>
-        <textarea placeholder="Messaggio" required></textarea><br>
-        <button type="submit">Invia</button>
-      </form>
-    </section>
-  </main>
+        <div class="course">
+            <h3>Corso di Lingua Inglese</h3>
+            <p>Migliora le tue abilità linguistiche con il nostro corso di inglese avanzato.</p>
+            <a href="#">Apri corso</a>
+            <img class="dynamic-image" src="inglese.jpg" alt="Corso di Lingua Inglese">
+        </div>
 
-  <footer>
-    <p>&copy; 2023 PlatLearn. Tutti i diritti riservati.</p>
-  </footer>
+        <div class="calendar">
+            <h3>Calendario Corsi</h3>
+            <table>
+                <tr>
+                    <th>Corso</th>
+                    <th>Orario</th>
+                </tr>
+                <tr>
+                    <td>Matematica</td>
+                    <td>Lunedì 10:00 - 12:00</td>
+                </tr>
+                <tr>
+                    <td>Programmazione</td>
+                    <td>Martedì 14:00 - 16:00</td>
+                </tr>
+                <tr>
+                    <td>Lingua Inglese</td>
+                    <td>Giovedì 16:00 - 18:00</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="contact">
+            <h3>Contatti</h3>
+            <p><strong>Email:</strong> info@platformatore.com</p>
+            <p><strong>Telefono:</strong> 123-456789</p>
+            <p><strong>Indirizzo:</strong> Via Futuro 1, 12345 Città Futura</p>
+        </div>
+    </main>
 </body>
 </html>
