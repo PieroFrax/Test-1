@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fiocco di Neve - Recensioni</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Fiocco di Neve - Autobiografia</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home
