@@ -2,11 +2,21 @@
 <html>
 <head>
   <title>Fiocco di Neve - Recensioni</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
   <header>
-    <h1>Fiocco di Neve - Autobiografia</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home
+    <!-- Menù di navigazione -->
+  </header>
+
+  <main>
+    <h1>Recensioni</h1>
+    <p>Leggi cosa dicono gli altri utenti sulle loro esperienze con Fiocco di Neve. Scopri come le avventure con lui hanno trasformato la loro vita.</p>
+    <!-- Aggiungi qui la sezione per le recensioni -->
+  </main>
+
+  <footer>
+    <!-- Footer -->
+  </footer>
+</body>
+</html>
