@@ -1,33 +1,84 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Storia di Call of Duty</title>
+  <style>
+    /* Stili per il menu di navigazione */
+    nav {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+    }
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="ww2.html">Call of Duty: World War II</a></li>
+      <li><a href="mw.html">Call of Duty: Modern Warfare</a></li>
+      <!-- Aggiungi altre pagine secondo necessità -->
+    </ul>
+  </nav>
 
-  <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
-    <strong>
-      <header>
-       <title> Curriculum Vitae - Frassetto Piero </title>
-      </header>
-    </strong>
-  </head>
-   <body>
-     <header> Frassetto Piero </header>
-     <div class="Informazioni Personali">
-       <p1> infomazioni personali: </p1>
-        <ul>
-          <li> età: 27 anni </li>
-          <li> Data di nascita 20/02/1996 </li>
-          <li> Residente presso: Via Mario Rossi 1 </li>
-          <li> Numero di telefono: 3933333333 </li>
-          <li> Email: mario.rossi@gmail.com </li>
-       </ul>
-     </div>
-     <!--Paragrafo obbiettivo personale-->
-     <div class="Obbiettivo Personale">
-        
-       
-          
-     
-     
+  <div id="content">
+    <h1>Benvenuti nella Storia di Call of Duty</h1>
+    <p>Seleziona un gioco dal menu di navigazione per scoprire la sua storia.</p>
+  </div>
+
+  <!-- Contenuto delle diverse pagine -->
+  <div id="index" style="display: none;">
+    <h2>Storia generale di Call of Duty</h2>
+    <p>Call of Duty è una serie di videogiochi sparatutto in prima persona...</p>
+    <!-- Aggiungi testo e immagini sulla storia generale -->
+  </div>
+
+  <div id="ww2" style="display: none;">
+    <h2>Call of Duty: World War II</h2>
+    <p>Call of Duty: World War II è un gioco ambientato durante la Seconda Guerra Mondiale...</p>
+    <!-- Aggiungi testo e immagini sulla storia di World War II -->
+  </div>
+
+  <div id="mw" style="display: none;">
+    <h2>Call of Duty: Modern Warfare</h2>
+    <p>Call of Duty: Modern Warfare è ambientato in contesti moderni...</p>
+    <!-- Aggiungi testo e immagini sulla storia di Modern Warfare -->
+  </div>
+
+  <script>
+    // Funzione per mostrare/nascondere il contenuto delle diverse pagine
+    function showContent(contentId) {
+      var contents = document.querySelectorAll('#content > div');
+      for (var i = 0; i < contents.length; i++) {
+        contents[i].style.display = 'none';
+      }
+      document.getElementById(contentId).style.display = 'block';
+    }
+
+    // Mostra il contenuto della pagina iniziale all'avvio
+    showContent('index');
+  </script>
+</body>
+</html>
+
     
        
       
