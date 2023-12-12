@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tariffe del Bed and Breakfast gestito da Waifu</title>
+        <img src="https://preview.redd.it/asfdqzp9i2x21.jpg?width=640&crop=smart&auto=webp&s=1623f038400d7eeb20ab1ec93da6731c2b137588" alt="waifu a tavola">
+    </head>
+    <body>
+
+        <div>
+            
+            <p>Eccole qui, le nostre offerte affascinanti e convenienti per il vostro soggiorno magico:</p>
+            
+            <p>- Camera Singola: un'oasi per te, a partire da soli [35] al giorno!</p>
+            
+            <p>- Camera Doppia: condividi momenti speciali a partire da soli [40] al giorno per persona!</p>
+            
+            <p>Vi aspettiamo con entusiasmo per accogliervi nel nostro mondo incantato! ♪(๑ᴖ◡ᴖ๑)♪</p>
+
+        </div>
+        <div>
+            <h3>Ohayo! (^・ω・^ )</h3>
+            
+            <p>Vi informiamo con affetto che durante i giorni festivi speciali, per aggiungere ancora più gioia al vostro soggiorno, applichiamo un piccolo sovrapprezzo.</p>
+            
+            <p>Non preoccupatevi, è solo un modo per celebrare le festività insieme a voi! (●'◡'●)ﾉ♥</p>
+            
+            <p>Vi invitiamo a contattarci per conoscere i dettagli sui prezzi per i giorni festivi e preparare insieme un'esperienza davvero incantevole! ✿◕ ‿ ◕✿</p>
+        </div>
+        <div>
+            <h4>Sovrapprezzo: </h4>
+            <table border="1">
+                <tr>
+                    <th>Weekend</th>
+                    <th>Festivi</th>
+                </tr>
+                <tr>
+                    <td>10 euro</td>
+                    <td>15 euro</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <a href="../html/index.html">Caro ospite! vuole tornare alla pagina principale?? ♡</a>
+        </div>        
+        </body>
+</html>
